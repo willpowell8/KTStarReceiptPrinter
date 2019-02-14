@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.4'
+
+target 'RMLStarReceiptPrinter' do
+  pod 'KTStarReceiptPrinter', :path => "../"
+end
+
+target 'RMLStarReceiptPrinterTests' do
+  pod 'KTStarReceiptPrinter', :path => "../"
+end
+

@@ -1,0 +1,16 @@
+PODS:
+  - KTStarReceiptPrinter (1.2)
+
+DEPENDENCIES:
+  - KTStarReceiptPrinter (from `../`)
+
+EXTERNAL SOURCES:
+  KTStarReceiptPrinter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KTStarReceiptPrinter: 27a26c1dbddfffb7e95e5c6bf7fcf5d25454fb2f
+
+PODFILE CHECKSUM: 0c867cbe1364a0311602d5631ba7538b2e94e715
+
+COCOAPODS: 1.6.0.rc.1

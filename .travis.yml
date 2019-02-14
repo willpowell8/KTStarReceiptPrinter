@@ -1,0 +1,10 @@
+# references:
+# * http://www.objc.io/issue-6/travis-ci.html
+# * https://github.com/supermarin/xcpretty#usage
+
+language: objective-c
+podfile: Example/Podfile
+xcode_workspace: Example/RMLStarReceiptPrinter.xcworkspace
+xcode_scheme: RMLStarReceiptPrinter
+script:
+ pod lib lint --quick
